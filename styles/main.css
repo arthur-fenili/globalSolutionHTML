@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-hapvida {
+    width: 350px;
+    height: 103.95px;
+}
+
+.logo-notredame {
+    width: 350px;
+}
+
+.header {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.title-gs > h1 {
+    margin: 0;
+}
+
+.title-gs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(231, 139, 63);
+    color: black;
+    border-bottom: 4px rgb(143, 79, 54) solid;
+    border-top: 4px rgb(143, 79, 54) solid;
+}
+
+.nav-item-solucao {
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    border-right: 2px solid black;
+    color: black;
+}
+
+.nav-item-integrantes {
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    color: black;
+}
+

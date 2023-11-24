@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-gs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.title-gs > h1 {
+    margin: 0;
+}
+
+.logo-hapvida {
+    width: 350px;
+    height: 103.95px;
+}
+
+.logo-notredame {
+    width: 350px;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-item {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item-solucao {
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    border-right: 2px solid black;
+    color: black;
+}
+
+.nav-item-integrantes {
+    text-decoration: none;
+    padding: 5px 25px 5px 25px;
+    color: black;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(231, 139, 63);
+    color: black;
+    border-bottom: 4px rgb(143, 79, 54) solid;
+    border-top: 4px rgb(143, 79, 54) solid;
+}
+
+.foto-art {
+    width: 200px;
+}
+
+.foto-gui {
+    width: 200px;
+}
+
+.foto-lopes {
+    width: 200px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.apresentacao-integrantes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.apresentacao-arthur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(230, 196, 134);
+    padding: 50px;
+    align-items: center;
+}
+
+.apresentacao-arthur > h3 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.apresentacao-guilherme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(224, 185, 111);
+    padding: 50px;
+    align-items: center;
+}
+
+.apresentacao-guilherme > h3 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.apresentacao-pedro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(224, 169, 67);
+    padding: 50px;
+    align-items: center;
+}
+
+.apresentacao-pedro > h3 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.logo-insta {
+    width: 40px;
+}
+
+.logo-linkedin {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+
+}
