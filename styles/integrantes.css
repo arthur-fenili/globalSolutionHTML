@@ -37,6 +37,7 @@ body {
 .header {
     display: flex;
     justify-content: space-evenly;
+    background-color: rgb(189, 235, 235);
 }
 
 .nav-item-solucao {
