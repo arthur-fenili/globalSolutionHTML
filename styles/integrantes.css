@@ -36,8 +36,9 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     background-color: rgb(189, 235, 235);
+    padding: 20px 0;
 }
 
 .nav-item-solucao {
@@ -86,6 +87,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-bottom: 90px;
 }
 
 .apresentacao-arthur {
@@ -96,11 +98,19 @@ body {
     background-color: rgb(230, 196, 134);
     padding: 50px;
     align-items: center;
+    width: 250px;
+    height: 500px;
 }
 
 .apresentacao-arthur > h3 {
     margin: 0;
     margin-top: 10px;
+}
+
+.clickable-email {
+    text-decoration: none;
+    color: black;
+    padding: 20px 0;
 }
 
 .apresentacao-guilherme {
@@ -111,6 +121,9 @@ body {
     background-color: rgb(224, 185, 111);
     padding: 50px;
     align-items: center;
+    width: 250px;
+    height: 500px;
+    margin: 0 20px;
 }
 
 .apresentacao-guilherme > h3 {
@@ -126,6 +139,8 @@ body {
     background-color: rgb(224, 169, 67);
     padding: 50px;
     align-items: center;
+    width: 250px;
+    height: 500px;
 }
 
 .apresentacao-pedro > h3 {
@@ -146,4 +161,44 @@ body {
     display: flex;
     flex-direction: row;
 
+}
+
+@media screen and (max-width: 1010px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apresentacao-integrantes {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 70px;
+    }
+
+    .apresentacao-pedro {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .apresentacao-guilherme {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo-hapvida {
+        width: 250px;
+        height: 80px;
+    }
+
+    .logo-notredame {
+        width: 250px;
+        height: 80px;
+    }
+
+    .title-gs {
+        font-size: smaller;
+    }
 }

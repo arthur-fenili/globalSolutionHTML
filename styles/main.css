@@ -119,14 +119,36 @@ li {
 }
 
 
-@media screen and (max-width: 1170px){
+@media screen and (max-width: 1170px) {
     .intro-text .indent-class {
         font-size: 14px;
     }
 }
 
-@media screen and (max-width: 1010px){
+@media screen and (max-width: 1010px) {
     .header {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .first-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo-hapvida {
+        width: 250px;
+        height: 80px;
+    }
+
+    .logo-notredame {
+        width: 250px;
+        height: 80px;
+    }
+
+    .title-gs {
+        font-size: smaller;
     }
 }
